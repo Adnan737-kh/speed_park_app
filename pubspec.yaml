@@ -1,0 +1,84 @@
+name: speed_park_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.2
+  cloud_firestore: ^4.8.4
+  firebase_storage: ^11.2.6
+  lottie: ^2.6.0
+  flutter_screenutil: ^5.9.1
+  dropdown_button2: ^2.3.7
+  image_picker: ^0.8.7
+  google_fonts: ^4.0.3
+  intl: ^0.18.1
+  badges: ^3.1.2
+  cached_network_image: ^3.3.1
+  qr_flutter: ^4.1.0
+  path_provider: ^2.1.1
+  url_launcher: ^6.1.12
+  permission_handler: ^11.0.1
+  pdf: any
+  share: any
+  external_path: ^1.0.3
+#  printing: ^5.6.1
+  flutter_barcode_scanner: ^2.0.0
+  flow_board: ^0.0.1
+  decimal: ^2.3.3
+  printing: ^5.12.0
+  htmltopdfwidgets: ^1.0.3
+  google_mlkit_text_recognition: ^0.14.0
+  camera: ^0.10.5+7
+  ndialog: 4.2.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+    - assets/onboardImages/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/Poppins-Regular.ttf
+        - asset: assets/Poppins-Medium.ttf
+        - asset: assets/Poppins-Bold.ttf
+        - asset: assets/Poppins-ExtraBold.ttf
+
+    - family: Montserrat
+      fonts:
+        - asset: assets/Metropolis-Regular.otf
+
+#    - family: OpenSans
+#      fonts:
+#        - asset:
+#        - assets/OpenSans-Regular.ttf
+#        - assets/OpenSans-Bold.ttf
+#        - assets/OpenSans-Italic.ttf
+#        - assets/OpenSans-BoldItalic.ttf

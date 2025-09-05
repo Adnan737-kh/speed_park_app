@@ -1,0 +1,121 @@
+# ========================
+# General
+# ========================
+*.class
+*.log
+*.pyc
+*.swp
+*.tmp
+*.bak
+*.orig
+*.rej
+*.swo
+*.DS_Store
+*.env
+*.keystore
+*.jks
+*.pem
+*.p12
+*.crt
+*.cer
+*.key
+
+# Editor
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+*.iml
+*.ipr
+*.iws
+.idea/
+# VS Code (uncomment if you don't want to commit settings)
+#.vscode/
+
+# Flutter / Dart
+.dart_tool/
+.build/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+.vscode/
+android/.gradle/
+android/.idea/
+**/build/
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+pubspec.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Intellij / Android Studio
+*.iml
+.gradle/
+local.properties
+
+# Keystores / secrets
+*.jks
+*.keystore
+*.p12
+*.pem
+.env
+.env.*
+secrets.json
+
+# Generated native files
+**/gradle-wrapper.jar
+
+# ========================
+# macOS
+# ========================
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# ========================
+# Windows
+# ========================
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+
+# ========================
+# Linux
+# ========================
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+
+# ========================
+# Web
+# ========================
+web/generated_plugin_registrant.dart
+
+# ========================
+# Coverage / Reports
+# ========================
+coverage/
+*.lcov
+*.cov
+*.coverage
+
+# ========================
+# Firebase / Keys (ignore sensitive files)
+# ========================
+google-services.json
+GoogleService-Info.plist
+
+# ========================
+# Fastlane / CI
+# ========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/tesxt_output
+
+# ========================
+# Others
+# ========================
+!.gitkeep
