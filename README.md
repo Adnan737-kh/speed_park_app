@@ -6,6 +6,9 @@ This system helps manage vehicle parking operations efficiently with role-based 
 ---
 
 ## 📱 App Screenshots
+| Main Page 
+![Splash](screenshots/main.png)
+
 
 | Splash Screen | Login / Role Selection | Dashboard |
 |--------------|------------------------|-----------|
