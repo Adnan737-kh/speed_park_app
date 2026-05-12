@@ -6,7 +6,7 @@ This system helps manage vehicle parking operations efficiently with role-based 
 ---
 
 ## 📱 App Screenshots
-| Main Page 
+Main Page 
 ![Splash](screenshots/main.png)
 
 
@@ -47,7 +47,6 @@ This system helps manage vehicle parking operations efficiently with role-based 
 ### 🔐 Secure & Fast
 - Firebase Authentication  
 - Firestore Database  
-- Real-time updates  
 
 ---
 
@@ -65,9 +64,6 @@ This system helps manage vehicle parking operations efficiently with role-based 
 
 ```bash
 lib/
- ┣ screens/
+ ┣ core/
+ ┣ ui/
  ┣ widgets/
- ┣ models/
- ┣ providers/
- ┣ services/
- ┗ main.dart
