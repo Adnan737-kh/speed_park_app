@@ -1,16 +1,70 @@
-# speed_park_app
+# 🚗 SPEED PARK LLC
 
-A new Flutter project.
+A modern **Flutter-based Smart Parking Management App** designed for parking controllers, supervisors, and validation teams.  
+This system helps manage vehicle parking operations efficiently with role-based access and real-time parking records.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 App Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+| Splash Screen | Login / Role Selection | Dashboard |
+|--------------|------------------------|-----------|
+| ![Splash](screenshots/splash.png) | ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Car In Parking | User Requests | History |
+|---------------|--------------|---------|
+| ![Parking](screenshots/parking.png) | ![Requests](screenshots/requests.png) | ![History](screenshots/history.png) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Supervisor Reports | Filter Report |
+|-------------------|--------------|
+| ![Reports](screenshots/reports.png) | ![Filter](screenshots/filter.png) |
+
+---
+
+## ✨ Features
+
+### 👤 Role Based Login
+- Super User  
+- Lobby Controller  
+- Validation  
+- Guest  
+
+### 🚘 Parking Management
+- Register a car  
+- Car in parking records  
+- Request vehicle retrieval  
+- Confirm requests  
+
+### 📊 Reports & History
+- Delivery reports  
+- Sales reports  
+- Vehicle history logs  
+- Filter reports by date/location  
+
+### 🔐 Secure & Fast
+- Firebase Authentication  
+- Firestore Database  
+- Real-time updates  
+
+---
+
+## 🛠 Tech Stack
+
+- **Flutter**
+- **Dart**
+- **Firebase Auth**
+- **Cloud Firestore**
+- **Getx State Management**
+
+---
+
+## 📂 Project Structure
+
+```bash
+lib/
+ ┣ screens/
+ ┣ widgets/
+ ┣ models/
+ ┣ providers/
+ ┣ services/
+ ┗ main.dart
